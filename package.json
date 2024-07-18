@@ -1,0 +1,25 @@
+{
+  "name": "playwright-hoeru",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "server": "npx json-server --port=3000 --host='0.0.0.0' ./server/data.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@playwright/test": "^1.45.1",
+    "@types/node": "^20.14.10",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "eslint": "^8.56.0",
+    "json-server": "^1.0.0-beta.1",
+    "prettier": "^3.2.5",
+    "prettier-eslint": "^16.3.0",
+    "typescript": "^5.3.3",
+    "zod": "^3.23.8",
+    "zod-validation-error": "^3.3.0"
+  }
+}
